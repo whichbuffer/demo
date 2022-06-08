@@ -1,1 +1,1 @@
-procdump.exe -accepteula -ma lsass.exe lsass.dmp
+sc sdset appguard_agent D:(A;;CCLCSWLOCRRC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWRPWPDTLOCRRC;;;SY)S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)
