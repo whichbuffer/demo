@@ -1,1 +1,1 @@
-AvDump.exe --pid 676 --exception_ptr 0 --thread_id 0 --dump_level 1 --dump_file E:\lsass.dmp --min_interval 0
+procdump.exe -accepteula -ma lsass.exe lsass.dmp
